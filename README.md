@@ -2,7 +2,7 @@
 
 El ordenador lee tres idiomas, **HTML,CSS y JAVASCRIPT**.
 
-Se descarga en el caché una copia de la web en tu ordenador(CLIENT SIDE) a través de un dominio. Estos están en servidores (SERVER SIDE), con una dirección IP(números) en lugar del nombre que interpreta primero el DNS(DOMAIN NAMES SERVER), en una carpeta alojada (HOSTING). A ésto se le llama PING.
+Se descarga en el caché una copia de la web en tu ordenador(CLIENT SIDE) a través de un dominio. Estos están en servidores (SERVER SIDE), con una dirección IP(números) en lugar del nombre que interpreta primero el DNS(DOMAIN NAMES SERVER), en una carpeta alojada (HOSTING).
 
 **CLIENT SIDE—DNS—SERVER SIDE—CLIENT SIDE**
 
@@ -11,6 +11,8 @@ Se descarga en el caché una copia de la web en tu ordenador(CLIENT SIDE) a trav
 **CSS:** Se preocupa cómo se ve lo que ponemos en el HTML (presentación, formato, estilos…). **Cómo se ve**.
 
 **JAVASCRIPT**: Comportamiento de los elementos de la interfaz de la descarga de datos dinámincos asíncronos (AJAX). Interactividad, **cómo funciona.** 
+
+La importancia del CSS: http://www.csszengarden.com/ 
 
 # DISTRIBUCIÓN DEL PROYECTO
 
