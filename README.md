@@ -1,3 +1,16 @@
+# CÓMO FUNCIONA UN NAVEGADOR
+
+El ordenador lee tres idiomas, **HTML,CSS y JAVASCRIPT**.
+Se descarga en el caché una copia de la web en tu ordenador(CLIENT SIDE) a través de un dominio. Estos están en servidores (SERVER SIDE), con una dirección IP(números) en lugar del nombre que interpreta primero el DNS(DOMAIN NAMES SERVER), en una carpeta alojada (HOSTING). A ésto se le llama PING.
+
+**CLIENT SIDE—DNS—SERVER SIDE—CLIENT SIDE**
+
+**HTML:** Alberga contenido estructurado y semántica. **Qué es.**
+
+**CSS:** Se preocupa cómo se ve lo que ponemos en el HTML (presentación, formato, estilos…). **Cómo se ve**.
+
+**JAVASCRIPT**: Comportamiento de los elementos de la interfaz de la descarga de datos dinámincos asíncronos (AJAX). Interactividad, **cómo funciona.** 
+
 # DISTRIBUCIÓN DEL PROYECTO
 
 >## CARPETAS Y ARCHIVOS
