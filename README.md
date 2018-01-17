@@ -63,11 +63,11 @@ La segunda línea de código,
 
 En tercer lugar,
 
-							 <head>
+	<head>
 		Se utiliza para poner la información de la web como los títulos.
-							 </head> (para cerrar)
+    </head> (para cerrar)
 								 
-				<title> texto </title>
+	<title> texto </title>
 
  Ésta información afecta mucho al SEO y Google y también corresponde al enlace de la página. Cada página (website) lleva un title distinto obligatoriamente poniendo siempre nombres coherentes para el usuario, con información relevante en primer lugar y 60 caracteres com máximo.
                   
