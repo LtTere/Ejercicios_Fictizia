@@ -85,8 +85,90 @@ En cuarto lugar,
 
 Uno de los contenidos de la web son los párrafos que se representan con la etiqueta,
 
-	  <p> </p>
+	<p> </p>
 				  
 Dentro de los párrafos, al igual que en todo el contenido de la web, es muy importante enriquecer semánticamente todo. Por ello, existen otras etiquetas que se encargan de eso dependiendo de dónde estén colocadas. En párrafo utilizamos,
 
 	<strong> unas palabras de texto elegido </strong>
+   Ésta etiqueta lleva un CSS de fábrica que pone las palabras en negrita pero posteriormente se puede cambiar en el archivo CSS.
+
+Para cambiar la entonación, dar un énfasis distinto al texto, como por ejemplo: nombres propios, ponemos la etiqueta,
+
+	<em> nombre propio </em>
+
+Automáticamente se pone en cursiva, pero también lo podemos cambiar en CSS. 
+
+Semánticamente hablando, le da un valor distinto al párrafo.
+
+Para no cambiar la semántica de un texto pero sí darle un formato distinto posteriormente en CSS, existe otra etiqueta,
+
+	<span> </span>
+
+Para salto de línea, que no de párrafo ya que no guarda márgenes,
+
+	<br> </br>
+
+## LOS TITULARES Ó ENCABEZADOS
+
+Los clasificamos por orden de importancia semántica con las siguientes etiquetas,
+
+	<h1> </h1> Visualmente y nivel de importancia es mayor
+	<h2> </h2>
+	<h3> </h3>
+	<h4> </h4>
+	<h5> </h5>
+	<h6> </h6> Visualmente y nivel de importacia es el menor de todos.
+
+Como mínimo en la web hay dos h1 que son el logo y el titular principal. No se le puede poner a todo h1 ya que aplana la semántica y Seo y Google no te tendrán en cuenta.
+
+Existe una etiqueta que sirve como símil a caja y no aporta nada semánticamente. Se utiliza para envoltura de contenido sin connotación alguna,
+
+	<div> </div>
+
+## MODELO DE CAJA: content-box (clásico)
+
+Los bordes (border) en éste modelo de caja son exterior, crecen hacia fuera y es ahí cuando empieza el margen (margin). La unión del borde, si lo ponemos en distintos colores, se verá en inglete a 45º. Saber hacer ésto te permite hacer polígonos en CSS y así conseguimos que éstas imagenes no pesen nada ya que no hay imágenes adicionales. Más tarde en CSS definiremos el grosor, estilo de línea y color.
+
+Dentro de los bordes hay un área de relleno que deja respirar al texto que se llama padding, al igual que los bordes, hay que definir que hay padding top (la parte de arriba), padding bottom (la parte de abajo), padding right (parte derecha), padding left (parte izquierda). Algunas etiquetas ya vienen con un padding mayor a 0 automático.
+
+El ancho de la etiqueta empieza (width) se inicia con los contenidos y el alto (heigh) de inicio a fin de contenido.
+
+
+## MODELO DE CAJA: border-box
+
+La diferencia en cuanto a la anterior es el alto y el ancho de la caja que, en éste caso, empieza en el borde exterior.
+
+El borde y el padding crecen de fuera hacia dentro, no como en el anterior.
+
+Por defecto, se adaptan los elementos de bloque, en ancho, a todo y en alto al contenido. el head, body y html son elementos de bloque. El body tiene un padding de fábrica y el html se adapta a la ventana.
+
+
+## SITIOS DONDE ESCRIBIR CSS
+
+Existen tres sitios, in line (en la línea del código), una etiqueta style en el head ó la más utilizada en el 99´5% de los casos, en un archivo CSS.
+
+    - In line: Sólo se utiliza cuando no es una página web, por ejemplo un newletter (un html incrustado en un email), en la línea de texto del HTML,
+
+	<p style= "color:red"> texto...</p>
+
+    - Poner una etiqueta del CSS dentro del head,
+
+	<style>
+		p{   (cada propiedad en una línea)
+		    color:red; 
+			background-color: cyan;
+		}
+	</style>
+
+
+# CSS
+
+		/-----------------CSS----------------/
+	index.html		galeria.html	contactos.html
+
+Se abre un archivo nuevo CSS y se guarda. Éste afectará a todos los archivos HTML vinculándolo con una etiqueta link en el head de HTML que no se cierra,
+
+	<link href= "css/css.css" rel= "stylesheet">
+
+El atributo href marca la ruta del archivo CSS.
+ 
