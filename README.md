@@ -43,3 +43,50 @@ Reducimos, dentro de lo posible, al mínimo el número de carpetas y archivos po
 **Los iconos de la web** (touch icon y los logos de la marca), éstos van sueltos sin carpeta. Los generamos de distintos tamaños a través de https://realfavicongenerator.net/ para los distintos dispositivos.
 
 **Carpeta desastre**, ésta es la que no se sube a internet donde ponemos los PSD, los editables, los videos 4k...
+
+
+# HTML
+
+Empezaremos abriendo una carpeta del proyecto, la guardamos y la vinculamos con el editor de código para comenzar con el HTML.
+
+La primera línea de código será el Doctype que define el tipo de documento con el que vamos a trabajar, quedando así: 
+
+				<!DOCTYPE html>
+
+**Como anotación, toda línea de código estará escrita en minúsculas.*
+
+La segunda línea de código, 		
+			
+				<html>
+		Aquí va todo lo relacionado al documento.		
+				</html> (para cerrar)
+
+En tercer lugar,
+
+							 <head>
+		Se utiliza para poner la información de la web como los títulos.
+							 </head> (para cerrar)
+								 
+				<title> texto </title>
+
+ Ésta información afecta mucho al SEO y Google y también corresponde al enlace de la página. Cada página (website) lleva un title distinto obligatoriamente poniendo siempre nombres coherentes para el usuario, con información relevante en primer lugar y 60 caracteres com máximo.
+                  
+    <meta charset ="mapa de caracteres utf-8">
+    
+    <meta name = "descripcion" content = "describe el sitio"> con un máximo de 155 			   carácteres.
+                  
+    <meta property =" " content =" "> se utiliza en redes sociales.
+
+En cuarto lugar,
+
+	<body>
+	Aquí se coloca todo el contenido de la web, desde la cabecera, el texto, etc.
+	</body> 
+
+Uno de los contenidos de la web son los párrafos que se representan con la etiqueta,
+
+	  <p> </p>
+				  
+Dentro de los párrafos, al igual que en todo el contenido de la web, es muy importante enriquecer semánticamente todo. Por ello, existen otras etiquetas que se encargan de eso dependiendo de dónde estén colocadas. En párrafo utilizamos,
+
+	<strong> unas palabras de texto elegido </strong>
