@@ -44,6 +44,8 @@ Reducimos, dentro de lo posible, al mínimo el número de carpetas y archivos po
 
 **Carpeta desastre**, ésta es la que no se sube a internet donde ponemos los PSD, los editables, los videos 4k...
 
+![arbol](/img/arbol.png)
+
 
 # HTML
 
