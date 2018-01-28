@@ -5,16 +5,17 @@ body{
     font-size: 16px;
     color: antiquewhite;
     line-height: 1.5 ;
-    background-color: rgb(154, 148, 136);
+    background: linear-gradient(to right,rgb(154,148,136), antiquewhite);
     }
 
     .card {
     background-color: rgb(187, 55, 55) ; 
     width: 360px ;
+    margin: 30px;
     }
 
     div{
-        padding: 40px 30px 90px;
+        padding: 90px 30px;
     }
 
         div h1 {
@@ -23,7 +24,6 @@ body{
         text-transform: uppercase ;
         font-weight: bold ;
         margin-bottom: 40px ;
-        margin-top: 50px;
         } 
 
         div p {
