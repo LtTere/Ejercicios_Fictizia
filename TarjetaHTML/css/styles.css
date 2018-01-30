@@ -14,11 +14,11 @@ body{
     margin: 30px;
     }
 
-    div{
+    .card div{
         padding: 90px 30px;
     }
 
-        div h1 {
+    .card h1 {
         font-family: helvetica ;
         font-size: 40px ;
         text-transform: uppercase ;
@@ -26,11 +26,11 @@ body{
         margin-bottom: 40px ;
         } 
 
-        div p {
+    .card p {
         margin-top: 30px ;
         }
     
-        div em{
+    .card em{
         font-style: oblique ;
         }
     
